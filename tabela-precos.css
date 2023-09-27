@@ -1,0 +1,181 @@
+/* globais  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+.container{
+    width: 1024px;
+    margin: auto;
+}
+
+/* seção topo  */
+.topo{
+    background-color: #2f86d6;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    height: 150px;
+}
+
+.ref-topo{
+    position: relative;
+}
+
+.posicao-topo img{
+    position: absolute;
+    width: 100px;
+    padding-bottom: 50px;
+}
+
+.posicao-topo h1{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+
+.posicao-topo p{
+    position: absolute;
+    left: 100px;
+    top:60px
+}
+
+.posicao-topo-link {
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+
+.posicao-topo-link a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+a,p{
+    color: #fff;
+}
+
+/* seção tabela  */
+.tabela {
+    padding: 50px 0px;
+}
+
+.tabela table{
+    margin: auto;
+}
+
+.celula-oculta {
+    visibility: hidden;
+}
+
+.celula-cabeçalho {
+    text-align: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+    background-color: #f1f3f7;
+  }
+
+.celula-cabeçalho p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #a8a4a4;
+}
+
+.celula-cabeçalho h2 {
+    font-size: 30px;
+}
+  
+table tbody td {
+    text-align: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.primeira-celula {
+    background-color: #f1f3f7;
+    font-weight: 500;
+    text-align: left;
+}
+
+.marcador-azul {
+    width: 15px;
+    height: 15px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}
+
+/* seção rodape  */
+.rodape{    
+    background-color: #2f86d6;
+    padding-top: 50px;
+    height: 320px;
+}
+
+.ref-rodape{
+    position: relative;
+    height: 220px;
+}
+
+.pos-rodape h1{
+    position: absolute;
+    top:10px;
+    left: 500px;
+}
+
+.pos-rodape p{
+    position: absolute;
+    top:60px;
+    left: 500px;
+}
+
+.pos-rodape img{
+    position: absolute;
+    width: 100px;
+    left: 400px;
+}
+
+.cor-branco p{
+    background-color: #fff;
+}
+
+.fundo-cinza{
+    background-color: #f1f3f7;
+    text-align: left;
+    padding: 20px;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.pos-copyright{
+    position: absolute;
+    top:130px;
+    margin: 0px auto;
+    width: 1024px;
+    text-align: center;
+}
+
+.pos-fim{
+    position: absolute;
+    background-color: red;
+    bottom: 0px;
+}
+
+.fundo-cinza-rod{
+    background-color: #f1f3f7;
+    text-align: center;
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+span{
+    color: #2f86d6;
+    font-weight: bold;
+}
